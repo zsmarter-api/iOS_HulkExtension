@@ -33,9 +33,8 @@ Pod::Spec.new do |spec|
   spec.author    = "S000454"
   spec.ios.deployment_target = "10.0"
   spec.source       = { :git => "https://github.com/zsmarter-api/iOS_HulkExtension.git", :tag => "#{spec.version}" }
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
  
-  spec.ios.vendored_frameworks = 'Framework/iOS_HulkExtension.framework'
+  spec.ios.vendored_frameworks = 'Framework/HulkExtensionSDK.framework'
  
   spec.frameworks = "Foundation","UserNotifications"
   
